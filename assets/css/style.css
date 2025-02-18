@@ -138,4 +138,11 @@ padding: 10px;
 .products{
 display: flex;
 flex-direction: row;
+flex-wrap: wrap;
+}
+
+#sidebar{
+
+width: 500px;
+
 }
