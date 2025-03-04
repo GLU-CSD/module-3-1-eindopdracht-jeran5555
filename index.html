@@ -29,6 +29,8 @@
 
     <header>
       <div class="bovenbalk">
+        
+
         <div class="bovenlinks">
           <div class="bovenlinks">taal:</div>
           <select name="bovelinks" id="cars">
@@ -37,6 +39,11 @@
             <option value="opel">Frans</option>
           </select>
         </div>
+
+        <img src="assets/img/86BDE991-4542-4121-9794-9B7F56A18DDD.webp" alt="logo2" class="logo2">
+        <img src="assets/img/mark.jpeg" alt="logo1" class="logo1">
+        <img src="assets/img/86BDE991-4542-4121-9794-9B7F56A18DDD.webp" alt="logo2" class="logo2">
+
 
         <div class="bovenrechts">
           <div class="bovenrechts"><a href=""> mijn account</a></div>
@@ -54,14 +61,43 @@
       </div>
 
 
-      <div class="onderbalk">||||| menu </div>
+      <div class="onderbalk">
+
+
+        
+      </div>
 
 
     </header>
 
     <main>
 
-      <div id="sidebar"></div>
+      <div id="sidebar">
+        <div data-role="page">
+          <div data-role="header">
+            <h1>Prijs Verschil</h1>
+          </div>
+        
+          <div data-role="main" class="ui-content">
+            <form method="post" action="/action_page_post.php">
+              <div data-role="rangeslider">
+                <label for="price-min">Price:</label>
+                <input type="range" name="price-min" id="price-min" value="200" min="0" max="1000">
+                <label for="price-max">Price:</label>
+                <input type="range" name="price-max" id="price-max" value="800" min="0" max="1000">
+              </div>
+                
+              >
+          </div>
+        </div> 
+
+
+
+
+
+
+
+      </div>
 
       <div class="products">
         <div class="product">
@@ -161,7 +197,7 @@
           </div>
         </div>
         <div class="product">
-          <img src="assets/img/erd.webp" alt="product8" class="product9">
+          <img src="assets/img/erd.webp" alt="product9" class="product9">
           <div class="onder">
             <div class="onderlinks">
               <div class="title"> ERD hoodie </div>
@@ -172,11 +208,55 @@
             </div>
           </div>
         </div>
+        <div class="product">
+          <img src="assets/img/rafsimonsaw2005allshadowshoodie1.jpg" alt="product10" class="product10">
+          <div class="onder">
+            <div class="onderlinks">
+              <div class="title"> RAF Shdw hoodie </div>
+              <div class="geld">4500$</div>
+            </div>
+            <div class="onderrechts">
+              <img src="cart.svg" alt="cart" class="cart">
+            </div>
+          </div>
+        </div>
       </div>
     </main>
 
 
-    <footer>footer</footer>
+    <footer>
+     <div class="footer1">
+      <div class="footerlinks">
+        <div class="footerlinks">© 2025</div>
+        <div class="footerlinks">|</div>
+        <div class="footerlinks">Privacy Policy</div>
+        <div class="footerlinks">|</div>
+        <div class="footerlinks">Terms of Use</div>
+        <div class="footerlinks">|</div>
+        <div class="footerlinks">Sales and Refunds</div>
+        <div class="footerlinks">|</div>
+        <div class="footerlinks">Legal</div>
+        <div class="footerlinks">|</div>
+        <div class="footerlinks">Site Map</div>
+        <div class="footerlinks">|</div>
+        <div class="footerlinks">Careers</div>
+        <div class="footerlinks">|</div>
+        <div class="footerlinks">Contact</div>
+      </div>
+      <div class="footerrechts">
+        <div class="footerrechts">Netherlands</div>
+        <div class="footerrechts">|</div>
+        <div class="footerrechts">English</div>
+      </div>
+
+     
+    
+    
+    
+    </div>
+
+
+    </footer>
 
 
     <script src="assets/js/app.js"></script>
